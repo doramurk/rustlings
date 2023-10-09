@@ -3,13 +3,11 @@
 // Execute `rustlings hint variables2` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
 fn main() {
-    let x;
-    if x == 10 {
-        println!("x is ten!");
+    let x : i32 = 4;
+    if x == 10 || x == 5 {
+        println!("x is ten or five!");
     } else {
-        println!("x is not ten!");
+        println!("x is not ten or five!");
     }
 }
